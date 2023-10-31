@@ -34,9 +34,9 @@ const searchImage = async () => {
     imageWrapper.appendChild(image);
     imageWrapper.appendChild(imageLink);
     searchResultEl.appendChild(imageWrapper);
+    page++;
   });
 
-  page++;
   if (page > 1) {
     showMore.style.display = "block";
   }
